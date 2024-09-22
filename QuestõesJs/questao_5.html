@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processei</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-teal-400 flex flex-col h-screen">
+    <header class="bg-red-700 h-12 rounded flex justify-between items-center p-2">
+        <span class="text-white font-bold text-lg ml-5">PROCESSEI</span>
+        <nav>
+            <a href="#" class="text-white text-sm font-bold mr-2">Home</a>
+            <a href="#" class="text-white text-sm font-bold mr-2">Sobre</a>
+            <a href="#" class="text-white text-sm font-bold">Planos</a>
+            <a href="#" class="text-white text-sm font-bold">Contato</a>
+        </nav>
+    </header>
+
+    <main class="flex-grow bg-gray-300 flex flex-col items-center p-5">
+        <section class="text-center mt-10">
+            <div class="flex items-center justify-center space-x-2 mb-4">
+                <i class="fa-solid fa-laptop-file text-blue-600 text-3xl"></i>
+     
+            </div>
+            <img src="https://seuprocesso.com/blog/wp-content/uploads/elementor/thumbs/2151023395-qluhsttt2zolo4swjzk2wzwrbjm4gn15xydfn8lcls.jpg" alt="Imagem do Processei" class="w-full h-auto mb-2">
+            <h1 class="text-4xl font-bold">Acompanhe Seus Processos Sem Interferência</h1>
+            <p class="mt-4 max-w-lg mx-auto">Com o Processei, você pode gerenciar seus processos jurídicos de maneira prática e direta, sem depender de intermediários.</p>
+        </section>
+
+        <div class="h-16"></div>
+
+        <section class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-lg p-5">
+                <h3 class="text-xl font-semibold">Plano Básico</h3>
+                <p class="mt-2 text-lg">R$ 49,90/mês</p>
+                <p>Acompanhamento de 2 processo.</p>
+                <button class="mt-4 bg-red-600 text-white py-2 px-4 rounded">Assinar</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-5">
+                <h3 class="text-xl font-semibold">Plano Intermediário</h3>
+                <p class="mt-2 text-lg">R$ 89,90/mês</p>
+                <p>Acompanhamento de até 5 processos.</p>
+                <button class="mt-4 bg-red-600 text-white py-2 px-4 rounded">Assinar</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-5">
+                <h3 class="text-xl font-semibold">Plano Avançado</h3>
+                <p class="mt-2 text-lg">R$ 299,90/mês</p>
+                <p>Acompanhamento ilimitado de processos.</p>
+                <button class="mt-4 bg-red-600 text-white py-2 px-4 rounded">Assinar</button>
+            </div>
+        </section>
+
+        <section class="mt-10 bg-white rounded-lg shadow-lg p-5 max-w-lg">
+            <h2 class="text-2xl font-bold">Entre em Contato</h2>
+            <form class="mt-4">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Nome</label>
+                    <input type="text" id="name" class="border border-gray-300 rounded p-2 w-full" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">E-mail</label>
+                    <input type="email" id="email" class="border border-gray-300 rounded p-2 w-full" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Mensagem</label>
+                    <textarea id="message" rows="4" class="border border-gray-300 rounded p-2 w-full" required></textarea>
+                </div>
+                <button type="submit" class="bg-red-600 text-white py-2 px-4 rounded">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-black h-8 flex justify-center items-center">
+        <a href="#" class="text-white text-sm font-bold mr-3">Página Inicial</a>
+        <a href="#" class="text-white text-sm font-bold mr-3">Sobre nós</a>
+        <a href="#" class="text-white text-sm font-bold mr-3">Feedbacks</a>
+        <a href="#" class="text-white text-sm font-bold">Canais de atendimento</a>
+    </footer>
+</body>
+</html>
